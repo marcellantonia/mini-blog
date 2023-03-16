@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    text-align: center; 
+    margin: 1em auto 2em;       
+}
+
+header {
+    width: 100%;
+    color: rgb(47, 48, 48);
+    letter-spacing: normal;
+    height: 100vh;
+    background-color: aliceblue;
+    background-position: center;
+    background-size: cover;
+    }
+
+article {
+    letter-spacing: letter-spacing;
+    text-align: center;
+
+}
+
+p {
+    margin: 1em auto 1em;
+    display: flex; 
+    justify-content: center;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+header .menu {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+header .menu li{
+    display: inline-block;
+}
+
+header .menu a {
+    color: rgb(47, 48, 48);
+    padding: 8px 12px;
+    border-radius: 3px;
+    transition: 200ms;
+}
+
+header .menu .ativo, header .menu a:hover{
+    color: #444;
+    background-color: white;
+
+}
+
